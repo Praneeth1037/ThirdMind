@@ -1,0 +1,55 @@
+{
+  "voices": [
+    {
+      "mind": "Socrates",
+      "voice": "bm_fable",
+      "bytes": 500444
+    },
+    {
+      "mind": "Bentham",
+      "voice": "bm_george",
+      "bytes": 804044
+    }
+  ],
+  "events": [
+    {
+      "event": "playing",
+      "duration": 10.425
+    },
+    {
+      "event": "pause"
+    },
+    {
+      "event": "ended"
+    },
+    {
+      "event": "playing",
+      "duration": 16.75
+    },
+    {
+      "event": "pause"
+    },
+    {
+      "event": "ended"
+    },
+    {
+      "event": "playing",
+      "duration": 10.425
+    }
+  ],
+  "stoppedPlayers": [
+    {
+      "paused": true,
+      "hasSource": false
+    },
+    {
+      "paused": true,
+      "hasSource": false
+    },
+    {
+      "paused": true,
+      "hasSource": false
+    }
+  ],
+  "pageErrors": []
+}

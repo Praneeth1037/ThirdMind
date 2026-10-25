@@ -1,0 +1,19 @@
+{
+  "requests": [
+    {
+      "text": "If all other consequences are equal, saving five lives prevents more suffering. But the effects on trust, consent, and future harm matter too. What consequences might our simple one-versus-five framing leave out?",
+      "voice": "Daniel",
+      "lang": "en-GB",
+      "pitch": 1,
+      "rate": 0.9800000190734863
+    }
+  ],
+  "events": [
+    {
+      "event": "start"
+    },
+    {
+      "event": "end"
+    }
+  ]
+}

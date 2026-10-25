@@ -1,0 +1,12 @@
+.git
+.next
+node_modules
+.env*
+.vercel/.env*
+artifacts
+playwright-report
+test-results
+tests
+.agents
+.claude
+.codex

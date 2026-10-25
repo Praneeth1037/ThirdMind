@@ -1,0 +1,32 @@
+{
+  "url": "https://thirdmind-ecfryodko-praneeth1037s-projects.vercel.app",
+  "config": {
+    "ai": "groq",
+    "livekit": true,
+    "stt": true,
+    "tts": "character",
+    "storage": "redis"
+  },
+  "scenario": "cs",
+  "speech": [
+    {
+      "status": 503
+    }
+  ],
+  "events": [
+    {
+      "source": "device",
+      "event": "start",
+      "voice": "Eddy (English (United States))"
+    },
+    {
+      "source": "device",
+      "event": "end",
+      "voice": "Eddy (English (United States))"
+    }
+  ],
+  "reply": "ArchitectAI PERSPECTIVE9:48 AMWe should keep the login logic on our own server and call the managed auth service only for token verification, so if the external service fails we can still accept existing tokens and deny new sign‑ups until it recovers. That keeps the demo available for 200 users while preserving consistency. For a one‑week sprint, build a thin wrapper around the provider’s SDK and add a local cache of user credentials that is refreshed only when the provider is reachable. This balances reliability, cost, and latency without compromising security.",
+  "error": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+  "callStatus": "In the conversation AI audio on Add AI",
+  "pageErrors": []
+}

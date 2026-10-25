@@ -1,0 +1,41 @@
+{
+  "scenarios": [
+    {
+      "name": "Computer science",
+      "text": "Think through the system before you build it."
+    },
+    {
+      "name": "Medical",
+      "text": "A fuller view of the case."
+    },
+    {
+      "name": "Friends",
+      "text": "Less planning in circles. More actually going."
+    },
+    {
+      "name": "Cooking",
+      "text": "One meal. Everyone at the table."
+    }
+  ],
+  "mobile": [
+    {
+      "width": 390,
+      "actual": 390
+    },
+    {
+      "width": 320,
+      "actual": 320
+    },
+    {
+      "width": 768,
+      "actual": 768
+    }
+  ],
+  "videoDuration": 108.010604,
+  "minds": [
+    "Architect",
+    "Security Engineer",
+    "Feynman"
+  ],
+  "errors": []
+}

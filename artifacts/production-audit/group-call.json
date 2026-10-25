@@ -1,0 +1,265 @@
+{
+  "testedUrl": "https://thirdmind-psi.vercel.app",
+  "backend": "Vercel production",
+  "checkedAt": "2026-10-25T17:31:57.578Z",
+  "generatedDevices": true,
+  "checks": {
+    "sharedChat": true,
+    "silentUntilAsked": true,
+    "cloudCallConnectedBoth": true,
+    "twoWayAudioVideo": true,
+    "addAIUpdatesBoth": true,
+    "thirdAITileDoesNotOverlap": true,
+    "callLayoutsFitAllWidths": true,
+    "realAIReplyBoth": true,
+    "speechCompletesBoth": true,
+    "muteAISyncs": true,
+    "stopAIStopsBoth": true,
+    "mobileCallFits": true,
+    "mobileTilesDoNotOverlap": true,
+    "chatSurvivesCall": true,
+    "productionOnly": true
+  },
+  "apiOrigins": [
+    "https://thirdmind-psi.vercel.app"
+  ],
+  "websocketHosts": [
+    "thridmind-8ttw3hoe.livekit.cloud"
+  ],
+  "localRequests": [],
+  "pageErrors": [],
+  "receivedMedia": [
+    [
+      {
+        "kind": "audio",
+        "bytesReceived": 916
+      },
+      {
+        "kind": "video",
+        "bytesReceived": 1344,
+        "framesDecoded": 3
+      }
+    ],
+    [
+      {
+        "kind": "audio",
+        "bytesReceived": 58
+      },
+      {
+        "kind": "video",
+        "bytesReceived": 3570,
+        "framesDecoded": 2
+      }
+    ]
+  ],
+  "desktopTiles": {
+    "count": 3,
+    "overlap": false,
+    "rects": [
+      {
+        "x": 212,
+        "y": 452.3984375,
+        "width": 371.3671875,
+        "height": 232.1015625
+      },
+      {
+        "x": 593.3671875,
+        "y": 452.3984375,
+        "width": 371.3671875,
+        "height": 232.1015625
+      },
+      {
+        "x": 212,
+        "y": 694.5,
+        "width": 371.3671875,
+        "height": 232.1015625
+      }
+    ]
+  },
+  "callLayouts": [
+    {
+      "width": 320,
+      "bodyWidth": 320,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 12,
+          "y": 326,
+          "width": 143,
+          "height": 125
+        },
+        {
+          "x": 165,
+          "y": 326,
+          "width": 143,
+          "height": 125
+        },
+        {
+          "x": 12,
+          "y": 461,
+          "width": 143,
+          "height": 125
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 12,
+          "y": 328,
+          "width": 178,
+          "height": 125
+        },
+        {
+          "x": 200,
+          "y": 328,
+          "width": 178,
+          "height": 125
+        },
+        {
+          "x": 12,
+          "y": 463,
+          "width": 178,
+          "height": 125
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "bodyWidth": 768,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 207,
+          "y": 452.3984375,
+          "width": 141.3828125,
+          "height": 145
+        },
+        {
+          "x": 358.3828125,
+          "y": 452.3984375,
+          "width": 141.390625,
+          "height": 145
+        },
+        {
+          "x": 207,
+          "y": 607.3984375,
+          "width": 141.3828125,
+          "height": 145
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "bodyWidth": 1440,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 212,
+          "y": 452.3984375,
+          "width": 371.3671875,
+          "height": 232.1015625
+        },
+        {
+          "x": 593.3671875,
+          "y": 452.3984375,
+          "width": 371.3671875,
+          "height": 232.1015625
+        },
+        {
+          "x": 212,
+          "y": 694.5,
+          "width": 371.3671875,
+          "height": 232.1015625
+        }
+      ]
+    }
+  ],
+  "completedSpeech": [
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you mean by “sacrifice one person to save five”?",
+      "call": "In the conversation AI audio on Add AI",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "scriptedDemo": false
+    },
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you mean by “sacrifice one person to save five”?",
+      "call": "In the conversation AI audio on Add AI",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "scriptedDemo": false
+    }
+  ],
+  "startedBentham": [
+    [
+      {
+        "source": "device",
+        "event": "start",
+        "voice": "Daniel"
+      }
+    ],
+    [
+      {
+        "source": "device",
+        "event": "start",
+        "voice": "Daniel"
+      }
+    ]
+  ],
+  "mobileCallWidth": 390,
+  "mobileTiles": {
+    "count": 3,
+    "overlap": false,
+    "rects": [
+      {
+        "x": 12,
+        "y": 385,
+        "width": 178,
+        "height": 125
+      },
+      {
+        "x": 200,
+        "y": 385,
+        "width": 178,
+        "height": 125
+      },
+      {
+        "x": 12,
+        "y": 520,
+        "width": 178,
+        "height": 125
+      }
+    ]
+  },
+  "pass": true
+}

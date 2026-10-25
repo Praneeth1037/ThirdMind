@@ -1,0 +1,63 @@
+{
+  "testedUrl": "https://thirdmind-psi.vercel.app",
+  "backend": "Vercel production",
+  "layouts": [
+    {
+      "width": 1440,
+      "bodyWidth": 1440,
+      "scenarios": [
+        "Computer science",
+        "Medical",
+        "Friends",
+        "Cooking",
+        "Philosophy",
+        "Study together"
+      ]
+    },
+    {
+      "width": 768,
+      "bodyWidth": 768,
+      "scenarios": [
+        "Computer science",
+        "Medical",
+        "Friends",
+        "Cooking",
+        "Philosophy",
+        "Study together"
+      ]
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390,
+      "scenarios": [
+        "Computer science",
+        "Medical",
+        "Friends",
+        "Cooking",
+        "Philosophy",
+        "Study together"
+      ]
+    },
+    {
+      "width": 320,
+      "bodyWidth": 320,
+      "scenarios": [
+        "Computer science",
+        "Medical",
+        "Friends",
+        "Cooking",
+        "Philosophy",
+        "Study together"
+      ]
+    }
+  ],
+  "portraitsLoaded": 12,
+  "video": {
+    "duration": 108.010604,
+    "source": "https://thirdmind-psi.vercel.app/videos/thirdmind-demo.mp4",
+    "readyState": 4
+  },
+  "pageErrors": [],
+  "failedAssets": [],
+  "localRequests": []
+}

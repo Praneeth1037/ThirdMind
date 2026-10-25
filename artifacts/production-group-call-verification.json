@@ -1,0 +1,43 @@
+{
+  "origin": "https://thirdmind-psi.vercel.app",
+  "participants": [
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you think is the most important value that should guide this decision?",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "call": "In the conversation AI audio on Add AI",
+      "hasDemoLabel": false
+    },
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you think is the most important value that should guide this decision?",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "call": "In the conversation AI audio on Add AI",
+      "hasDemoLabel": false
+    }
+  ],
+  "mobileWidth": 390,
+  "pageErrors": []
+}

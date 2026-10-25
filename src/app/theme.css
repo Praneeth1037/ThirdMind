@@ -1,0 +1,887 @@
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #13160f;
+  --surface-raised: #1c2217;
+  --surface-soft: #242e1e;
+  --stroke: #3f4c32;
+  --ink: #eee9da;
+  --ink-muted: #adb89c;
+  --ink-subtle: #8e9e7c;
+  --accent: #cedfb2;
+  --accent-ink: #25351e;
+  --bg: var(--surface);
+  --sidebar: var(--surface);
+  --panel: var(--surface-raised);
+  --card: var(--surface-soft);
+  --line: var(--stroke);
+  --text: var(--ink);
+  --muted: var(--ink-muted);
+  --purple: var(--accent);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --surface: #f6f4ec;
+  --surface-raised: #fffef7;
+  --surface-soft: #e9eddf;
+  --stroke: #cbd5bd;
+  --ink: #26331f;
+  --ink-muted: #526647;
+  --ink-subtle: #647a54;
+  --accent: #38572d;
+  --accent-ink: #f4f7e9;
+}
+body {
+  background: var(--surface);
+  color: var(--ink);
+}
+.theme-toggle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--stroke);
+  border-radius: 7px;
+  min-height: 36px;
+  padding: 8px 10px;
+  font-size: 11px;
+  color: var(--ink);
+  background: var(--surface-soft);
+  white-space: nowrap;
+}
+.theme-toggle:hover {
+  border-color: var(--ink-subtle);
+}
+.brand,
+.hm-home .brand {
+  color: var(--ink);
+}
+.brand-period {
+  color: var(--accent);
+}
+mark,
+.chat-message mark {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.button.primary,
+.send-button {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+.button.secondary,
+.new-chat,
+.workspace-switch {
+  color: var(--ink);
+  border-color: var(--stroke);
+  background: var(--surface-raised);
+}
+.purple-text,
+.topbar-help,
+.nav-heading,
+.nav-room,
+.profile small {
+  color: var(--ink-muted);
+}
+.nav-room.active {
+  color: var(--ink);
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+}
+.room-active-dot {
+  background: var(--accent);
+}
+.profile,
+.sidebar-bottom {
+  border-color: var(--stroke);
+  color: var(--ink-muted);
+}
+.hm-home {
+  --hm-bg: var(--surface);
+  --hm-panel: var(--surface-raised);
+  --hm-border: var(--stroke);
+  --hm-text: var(--ink);
+  --hm-muted: var(--ink-muted);
+}
+.hm-nav a:not(.brand),
+.hm-nav-join,
+.hm-intro,
+.hm-watch small,
+.hm-proof > span,
+.hm-how p,
+.hm-section-heading > p,
+.hm-template p,
+.hm-mind-description > span,
+.hm-footer > span {
+  color: var(--ink-muted);
+}
+.hm-home em,
+.hm-eyebrow,
+.hm-how svg,
+.hm-text-button,
+.hm-mind-description small,
+.hm-footer button {
+  color: var(--ink-subtle);
+}
+.hm-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.hm-primary:hover {
+  background: color-mix(in srgb, var(--accent) 85%, var(--surface));
+}
+.hm-template,
+.hm-minds-strip > button {
+  background: var(--surface-raised);
+  border-color: var(--stroke);
+}
+.hm-template h3,
+.hm-mind-description strong {
+  color: var(--ink);
+}
+.hm-template-minds > span:last-child {
+  color: var(--ink-muted);
+}
+.hm-scenario-tabs button {
+  color: var(--ink-muted);
+  border-color: var(--stroke);
+}
+.hm-scenario-tabs button[aria-selected="true"] {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.hm-preview {
+  border: 1px solid var(--stroke);
+}
+.hm-chat-story {
+  background: var(--surface-soft);
+}
+.hm-chat-story > div > p:not(.hm-eyebrow) {
+  color: var(--ink-muted);
+}
+.hm-hero {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: 48px;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 55px;
+}
+.hm-hero-copy {
+  margin: 0;
+  text-align: left;
+  max-width: 590px;
+}
+.hm-hero-copy .hm-eyebrow,
+.hm-hero-actions,
+.hm-proof {
+  justify-content: flex-start;
+}
+.hm-hero h1 {
+  font-size: clamp(44px, 4.9vw, 70px);
+  letter-spacing: -2.5px;
+  line-height: 1.09;
+}
+.hm-intro {
+  margin: 0;
+  max-width: 410px;
+}
+.hm-hero-scene {
+  width: 100%;
+  min-height: 470px;
+  aspect-ratio: auto;
+  border: 1px solid var(--stroke);
+  border-radius: 12px;
+  box-shadow: 0 15px 45px #0002;
+}
+.hm-hero-scene > img {
+  object-position: center;
+}
+.hm-how {
+  max-width: 1264px;
+}
+.hm-final {
+  background: #202e1d;
+}
+.hm-final .hm-primary,
+.hm-preview .hm-primary {
+  background: #d0dfb6;
+  border-color: #d0dfb6;
+  color: #25341e;
+}
+/* Shared overlays and the invitation screen follow the selected theme too. */
+.modal {
+  color: var(--ink);
+  background: var(--surface-raised);
+  border-color: var(--stroke);
+}
+.modal h2,
+.modal h3,
+.modal label {
+  color: var(--ink);
+}
+.modal-header,
+.modal-heading {
+  border-color: var(--stroke);
+}
+.modal p,
+.modal-footnote,
+.form-note,
+.mobile-mind-row small {
+  color: var(--ink-muted);
+}
+.entry-form input,
+.search-field,
+.search-field input {
+  color: var(--ink);
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+}
+.library-card {
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+  color: var(--ink);
+}
+.library-card p,
+.category-tabs button {
+  color: var(--ink-muted);
+}
+.category-tabs button.selected {
+  color: var(--accent-ink);
+  background: var(--accent);
+}
+.button.added {
+  color: var(--ink-muted);
+  border-color: var(--stroke);
+  background: var(--surface-raised);
+}
+.join-page {
+  background: radial-gradient(
+    ellipse at top,
+    color-mix(in srgb, var(--accent) 9%, transparent),
+    transparent 65%
+  );
+}
+.join-navigation {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.join-card {
+  width: min(100%, 450px);
+  text-align: left;
+  padding: 32px;
+  background: var(--surface-raised);
+  border: 1px solid var(--stroke);
+  border-radius: 14px;
+  box-shadow: 0 20px 80px #0001;
+}
+.join-card h1 {
+  color: var(--ink);
+  font:
+    400 36px/1.2 Georgia,
+    serif;
+}
+.join-card > p {
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 15px 0 25px;
+}
+.join-card .entry-form {
+  margin-top: 0;
+}
+.join-card input {
+  color: var(--ink);
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+}
+/* Keep the call and transcript in a bounded workspace. Only their text logs scroll. */
+.room-shell,
+.room-shell .sidebar,
+.room-shell .room-main,
+.room-shell .room-minds-panel {
+  color: var(--ink);
+  background: var(--surface);
+  border-color: var(--stroke);
+}
+.room-shell .page-topbar,
+.room-shell .room-tabs {
+  background: var(--surface);
+  color: var(--ink-muted);
+  border-color: var(--stroke);
+}
+.room-shell .page-topbar a,
+.room-shell .room-heading .eyebrow,
+.room-shell .room-heading p:last-child,
+.room-shell .room-tabs > button {
+  color: var(--ink-muted);
+}
+.room-shell .room-heading h1,
+.room-shell .minds-panel-title h2 {
+  color: var(--ink);
+}
+.room-shell .room-title-dot {
+  color: var(--accent);
+}
+.room-shell .room-heading {
+  flex-shrink: 0;
+}
+.room-shell .room-tabs .selected {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.room-shell .room-tabs {
+  display: flex;
+}
+.room-header-actions .theme-toggle {
+  color: var(--ink);
+  border-color: var(--stroke);
+}
+.room-shell .button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.room-shell .room-mind-card,
+.room-shell .composer,
+.room-shell .composer-area {
+  background: var(--surface-raised);
+  color: var(--ink);
+  border-color: var(--stroke);
+}
+.room-shell .room-mind-top h3,
+.room-shell .message-meta strong {
+  color: var(--ink);
+}
+.room-shell .room-mind-card > p,
+.character-voice-label,
+.chat-message p,
+.room-shell .ai-message-content {
+  color: var(--ink-muted);
+}
+.room-shell .ai-message {
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+}
+.room-shell .ai-badge,
+.room-shell .chat-hints,
+.room-shell .composer-footer,
+.room-shell .mind-card-actions button,
+.room-shell .room-tabs > button > span {
+  color: var(--ink-subtle);
+}
+.room-shell .chat-hints button,
+.room-shell .mention-button,
+.room-shell .composer-toolbar .icon-button {
+  color: var(--ink-muted);
+}
+.room-shell .composer {
+  border-color: var(--stroke);
+}
+.room-shell .composer textarea {
+  color: var(--ink);
+  background: transparent;
+}
+.room-shell .composer textarea::placeholder {
+  color: var(--ink-subtle);
+}
+.room-shell .composer:focus-within {
+  border-color: var(--ink-subtle);
+}
+.room-shell .mobile-minds {
+  color: var(--ink);
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+}
+.conversation-workspace {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.conversation-chat {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.conversation-chat .chat-scroll {
+  flex: 1;
+  min-height: 0;
+  max-height: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.conversation-chat .composer-area {
+  position: static;
+  flex-shrink: 0;
+}
+.conversation-workspace[data-view="call"] > .conversation-chat,
+.conversation-workspace[data-view="chat"] > .call-panel {
+  display: none;
+}
+.ongoing-call-note {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  font-size: 11px;
+  color: var(--ink-muted);
+  background: var(--surface-soft);
+  border-bottom: 1px solid var(--stroke);
+  flex-shrink: 0;
+}
+.ongoing-call-note button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+}
+.room-in-call .room-main {
+  overflow: hidden;
+}
+.room-in-call .page-topbar {
+  display: none;
+}
+.room-in-call .room-heading {
+  min-height: 76px;
+  padding: 15px 24px;
+}
+.room-in-call .room-tabs {
+  padding-top: 0;
+  height: 42px;
+  gap: 20px;
+}
+.room-in-call .room-tabs > button {
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+.room-in-call .mobile-minds {
+  display: none;
+}
+.room-in-call .conversation-workspace > .call-panel {
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  flex: 1;
+  overflow: hidden;
+  padding: 16px 22px;
+  background: var(--surface);
+  border-color: var(--stroke);
+}
+.room-in-call .call-panel > .call-layout {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  height: 100% !important;
+  min-height: 0;
+  gap: 14px;
+}
+.room-in-call .call-layout > .call-status {
+  grid-column: 1/-1;
+  grid-row: 1;
+  color: var(--ink-muted);
+}
+.room-in-call .call-layout > .call-grid {
+  grid-column: 1;
+  grid-row: 2;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  justify-content: flex-start;
+}
+.room-in-call .call-layout .call-grid > .lk-grid-layout {
+  height: clamp(140px, 24dvh, 220px) !important;
+  min-height: 140px;
+}
+.room-in-call .call-layout .call-minds {
+  flex-shrink: 0;
+  max-height: none;
+  overflow: visible;
+}
+.room-in-call .call-layout > .call-controls {
+  grid-column: 1;
+  grid-row: 3;
+  background: var(--surface-raised);
+  border-color: var(--stroke);
+}
+.room-in-call .call-layout > .voice-minds {
+  grid-column: 2;
+  grid-row: 2/4;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--surface-raised);
+  border-color: var(--stroke);
+  padding: 18px;
+  margin: 0;
+}
+.room-in-call .voice-minds-heading {
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.room-in-call .voice-minds-heading strong,
+.room-in-call .voice-minds-heading b {
+  color: var(--ink);
+  font-size: 12px;
+}
+.room-in-call .voice-minds-heading p,
+.room-in-call .voice-disclosure {
+  color: var(--ink-muted);
+  font-size: 11px;
+}
+.room-in-call .voice-minds-buttons {
+  flex-wrap: wrap;
+}
+.room-in-call .voice-disclosure {
+  flex-shrink: 0;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.room-in-call .call-layout .live-captions {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: var(--surface);
+  border-color: var(--stroke);
+  overflow: hidden;
+}
+.room-in-call .captions-heading {
+  flex-shrink: 0;
+  padding: 12px;
+  border-color: var(--stroke);
+  flex-wrap: wrap;
+}
+.room-in-call .captions-heading h3 {
+  color: var(--ink);
+  font-size: 13px;
+}
+.room-in-call .captions-heading > span {
+  color: var(--ink-muted);
+  font-size: 10px;
+}
+.room-in-call .call-layout .caption-log {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 6px 14px;
+  scroll-padding: 14px;
+}
+.room-in-call .call-layout .caption-entry p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: var(--ink);
+}
+.room-in-call .caption-entry {
+  padding: 14px 0;
+  border-color: var(--stroke);
+}
+.room-in-call .caption-meta,
+.room-in-call .caption-meta strong,
+.room-in-call .caption-meta > span {
+  color: var(--ink-muted);
+  font-size: 11px;
+}
+.room-in-call .caption-empty {
+  color: var(--ink-muted);
+  font-size: 12px;
+}
+.room-in-call .caption-note {
+  display: none;
+}
+.room-in-call .caption-feedback {
+  flex-shrink: 0;
+  color: var(--ink-muted);
+  font-size: 10px;
+}
+.room-in-call .caption-current-word {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: none;
+}
+.room-in-call .captions-on {
+  color: var(--accent) !important;
+  background: var(--surface-soft) !important;
+}
+.room-in-call .call-controls button {
+  background: var(--surface-soft);
+  border-color: var(--stroke);
+  color: var(--ink);
+}
+.room-in-call .call-controls .lk-disconnect-button {
+  color: #ffe2d3;
+  background: #603d2d;
+  border-color: #8e6045;
+}
+.room-in-call .call-read-aloud[aria-checked="true"],
+.room-in-call .call-add-mind {
+  color: var(--ink);
+  border-color: var(--stroke);
+  background: var(--surface-soft);
+}
+.room-in-call .call-mind > .mind-speak-button {
+  color: #25351e;
+  background: #cedfb2;
+  border-color: #cedfb2;
+}
+:root[data-theme="light"] .room-scene-cover:after {
+  background: linear-gradient(90deg, #f6f4ec 10%, #f6f4ece8 60%, #f6f4ec88);
+}
+:root[data-theme="light"] .room-scene-cover {
+  opacity: 0.7;
+}
+:root[data-theme="light"] .room-shell .room-heading h1 {
+  color: var(--ink);
+}
+:root[data-theme="light"] .room-shell .room-tabs .selected {
+  color: #38572d;
+}
+:root[data-theme="light"] .room-shell .room-error {
+  background: #f6e8cc;
+  color: #795629;
+  border-color: #d6bb80;
+}
+@media (max-width: 1100px) {
+  .hm-nav > div {
+    gap: 16px;
+  }
+  .hm-hero {
+    gap: 28px;
+  }
+  .hm-hero-scene {
+    min-height: 450px;
+  }
+  .room-in-call .call-panel > .call-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(270px, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .hm-hero {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+  }
+  .hm-hero-copy {
+    max-width: 650px;
+  }
+  .hm-hero h1 {
+    font-size: 60px;
+  }
+  .hm-hero-scene {
+    min-height: 0;
+    aspect-ratio: 16/10;
+  }
+}
+@media (max-width: 980px) and (min-width: 721px) {
+  .room-in-call .call-panel > .call-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 1fr);
+  }
+  .room-in-call .call-layout .call-minds {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 720px) {
+  .theme-toggle {
+    min-height: 34px;
+    padding: 7px 9px;
+  }
+  .hm-nav > div {
+    gap: 8px;
+  }
+  .hm-nav .theme-toggle span {
+    display: none;
+  }
+  .hm-hero h1 {
+    font-size: 45px;
+  }
+  .room-shell .room-header-actions {
+    padding-top: 0;
+  }
+  .room-shell .room-header-actions .theme-toggle > span {
+    display: none;
+  }
+  .room-in-call .room-header-actions .button.secondary {
+    display: none;
+  }
+  .room-in-call .room-heading {
+    min-height: 66px;
+    padding: 12px 15px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .room-in-call .room-heading h1 {
+    font-size: 22px;
+    max-width: none;
+    margin-top: 0;
+  }
+  .room-in-call .room-heading > div:first-child {
+    min-width: 0;
+  }
+  .room-in-call .room-tabs {
+    display: flex;
+    padding: 0 12px;
+    height: 40px;
+    gap: 15px;
+  }
+  .room-in-call .room-tabs > button {
+    font-size: 10px;
+    gap: 5px;
+  }
+  .room-in-call .room-tabs > button > svg {
+    width: 13px;
+  }
+  .room-in-call .room-tabs > button:has(> span) {
+    display: none;
+  }
+  .room-in-call .conversation-workspace > .call-panel {
+    padding: 10px;
+  }
+  .room-in-call .call-panel > .call-layout {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(80px, 22dvh) auto minmax(0, 1fr);
+    gap: 9px;
+  }
+  .room-in-call .call-layout > .call-status {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .room-in-call .call-layout > .call-grid {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .room-in-call .call-layout > .call-controls {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 7px;
+    gap: 7px;
+  }
+  .room-in-call .call-layout > .voice-minds {
+    grid-column: 1;
+    grid-row: 4;
+    padding: 12px;
+  }
+  .room-in-call .call-layout .call-minds {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .room-in-call .voice-minds-heading {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .room-in-call .voice-minds-heading > div:first-child p,
+  .room-in-call .voice-disclosure,
+  .room-in-call .captions-heading > span {
+    display: none;
+  }
+  .room-in-call .voice-minds-heading strong {
+    font-size: 10px;
+  }
+  .room-in-call .voice-minds-buttons {
+    flex-shrink: 0;
+    width: auto;
+  }
+  .room-in-call .voice-minds-buttons .button {
+    font-size: 9px;
+    padding: 7px;
+  }
+  .room-in-call .voice-minds-buttons > .icon-button {
+    display: none;
+  }
+  .room-in-call .live-captions {
+    margin-top: 8px;
+  }
+  .room-in-call .captions-heading {
+    padding: 9px 11px;
+  }
+  .room-in-call .call-layout .caption-entry p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .room-in-call .caption-feedback {
+    display: none;
+  }
+  .ongoing-call-note {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  .join-page {
+    padding: 100px 18px 30px;
+  }
+  .join-navigation {
+    left: 20px;
+    right: 20px;
+  }
+  .join-card {
+    padding: 25px;
+  }
+}
+@media (max-width: 360px) {
+  .hm-nav > div {
+    gap: 6px;
+  }
+  .hm-nav .theme-toggle {
+    padding: 6px;
+  }
+  .hm-hero h1 {
+    font-size: 40px;
+  }
+  .room-in-call .room-tabs {
+    gap: 11px;
+  }
+  .room-in-call .room-tabs > button {
+    font-size: 9px;
+  }
+}
+@media (max-width: 720px) and (max-height: 700px) {
+  .room-in-call .call-panel > .call-layout {
+    grid-template-rows: auto 80px auto minmax(0, 1fr);
+    gap: 7px;
+  }
+  .room-in-call .room-error {
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 7px 14px;
+  }
+  .room-in-call .call-layout > .voice-minds {
+    padding: 8px;
+  }
+  .room-in-call .captions-heading {
+    padding: 7px 10px;
+  }
+  .room-in-call .voice-minds-heading > div:first-child {
+    display: none;
+  }
+  .room-in-call .voice-minds-buttons {
+    margin-left: auto;
+  }
+}
+@media (max-width: 600px) {
+  .hm-nav .hm-nav-create {
+    display: none;
+  }
+}

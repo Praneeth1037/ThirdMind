@@ -1,0 +1,39 @@
+{
+  "origin": "https://thirdmind-irs221e64-praneeth1037s-projects.vercel.app",
+  "results": [
+    {
+      "scenario": "medical",
+      "provider": "groq",
+      "minds": [
+        "doctor",
+        "medical_ethicist",
+        "patient_advocate"
+      ],
+      "reply": "What specific information does the patient need to understand the risks, benefits, and alternatives of the recommended treatment in order to give truly informed consent?",
+      "demo": false,
+      "system": []
+    },
+    {
+      "scenario": "friends",
+      "provider": "groq",
+      "minds": [
+        "mediator",
+        "devils_advocate"
+      ],
+      "reply": "How about a sunset picnic in the campus quad?  \n- **Time**: Start around 6:30 pm—fits Maya’s finish time and leaves Alex plenty of time to get there on foot or by bike.  \n- **Budget**: We can each bring a small snack or drink for under $15 total (e.g., a bag of chips, a bottle of water, a fruit).  \n- **Transport**: The quad is right on campus, so no car needed.  \n\nLet me know if that works for everyone or if anyone has a different idea!",
+      "demo": false,
+      "system": []
+    },
+    {
+      "scenario": "cooking",
+      "provider": "groq",
+      "minds": [
+        "mediator",
+        "judge"
+      ],
+      "reply": "How about a quick chickpea‑spinach rice bowl?  \n- Cook the rice (10 min).  \n- Sauté the tomatoes and spinach, then stir in the chickpeas, a pinch of cumin, salt, and pepper.  \n- Serve the veggie mix over the rice and top with a squeeze of lemon or a sprinkle of nutritional yeast for extra flavor.  \n\nThis keeps it vegan, peanut‑free, and under the $12 budget.  \n\nDoes this sound good? Any tweaks you’d like to make?",
+      "demo": false,
+      "system": []
+    }
+  ]
+}

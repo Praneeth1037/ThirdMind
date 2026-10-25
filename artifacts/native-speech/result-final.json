@@ -1,0 +1,98 @@
+{
+  "input": "Socrates, what do you think?",
+  "audioFile": "artifacts/native-speech/microphone.wav",
+  "recognition": [
+    {
+      "event": "start",
+      "at": 1792931772122
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931772130
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931775180
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931775180
+    },
+    {
+      "event": "result",
+      "text": "Socrates what",
+      "final": false,
+      "at": 1792931776700
+    },
+    {
+      "event": "result",
+      "text": "what",
+      "final": false,
+      "at": 1792931776842
+    },
+    {
+      "event": "result",
+      "text": "what do you",
+      "final": false,
+      "at": 1792931776884
+    },
+    {
+      "event": "result",
+      "text": "what do you think",
+      "final": false,
+      "at": 1792931777172
+    },
+    {
+      "event": "result",
+      "text": "what",
+      "final": false,
+      "at": 1792931777338
+    },
+    {
+      "event": "result",
+      "text": " do you think",
+      "final": false,
+      "at": 1792931777338
+    },
+    {
+      "event": "result",
+      "text": "what do you",
+      "final": false,
+      "at": 1792931777397
+    },
+    {
+      "event": "result",
+      "text": " think",
+      "final": false,
+      "at": 1792931777397
+    },
+    {
+      "event": "result",
+      "text": "what do you think",
+      "final": false,
+      "at": 1792931777744
+    },
+    {
+      "event": "result",
+      "text": "what do you think",
+      "final": true,
+      "at": 1792931778009
+    },
+    {
+      "event": "speechend",
+      "at": 1792931792242
+    },
+    {
+      "event": "end",
+      "at": 1792931792341
+    }
+  ],
+  "synthesis": [],
+  "pageErrors": [],
+  "roomUrl": "http://localhost:3000/room/ethics-study-group-c2bdfaacb5b82de7e35e5a89",
+  "aiMessages": [],
+  "visibleSpeechError": [],
+  "visiblePlaybackError": [],
+  "captionText": "Native voice test (you)\nFinal\n\nwhat do you think",
+  "voiceStatus": "Connecting to browser speech service…"
+}

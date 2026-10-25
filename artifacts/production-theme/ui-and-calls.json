@@ -1,0 +1,440 @@
+{
+  "origin": "https://thirdmind-psi.vercel.app",
+  "checkedAt": "2026-10-25T17:57:55.360Z",
+  "checks": {
+    "darkDefaultAndSavedLight": true,
+    "inviteJoinsChatBeforeCall": true,
+    "joinExistingCall": true,
+    "chatViewKeepsCallConnected": true,
+    "realAISpeechAndTranscriptBoth": true,
+    "readableTranscriptBothThemesAllSizes": true,
+    "addAI": true,
+    "muteAI": true,
+    "stopAIBoth": true,
+    "chatAfterCall": true,
+    "returningInviteRequiresJoin": true,
+    "productionOnly": true
+  },
+  "pageErrors": [],
+  "localRequests": [],
+  "apiOrigins": [
+    "https://thirdmind-psi.vercel.app"
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "bodyWidth": 1440,
+      "viewportHeight": 1000,
+      "stage": {
+        "x": 212,
+        "y": 246.59375,
+        "width": 695.328125,
+        "height": 656.40625,
+        "right": 907.328125,
+        "bottom": 903
+      },
+      "transcript": {
+        "x": 921.328125,
+        "y": 246.59375,
+        "width": 496.6640625,
+        "height": 736.40625,
+        "right": 1417.9921875,
+        "bottom": 983
+      },
+      "log": {
+        "x": 941.328125,
+        "y": 449.890625,
+        "width": 456.6640625,
+        "height": 513.109375,
+        "right": 1397.9921875,
+        "bottom": 963
+      },
+      "call": {
+        "x": 190,
+        "y": 182.59375,
+        "width": 1250,
+        "height": 817.40625,
+        "right": 1440,
+        "bottom": 1000
+      },
+      "controls": {
+        "x": 212,
+        "y": 917,
+        "width": 695.328125,
+        "height": 66,
+        "right": 907.328125,
+        "bottom": 983
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "theme": "dark",
+      "bodyWidth": 768,
+      "viewportHeight": 900,
+      "stage": {
+        "x": 207,
+        "y": 246.59375,
+        "width": 262.5,
+        "height": 506.40625,
+        "right": 469.5,
+        "bottom": 753
+      },
+      "transcript": {
+        "x": 483.5,
+        "y": 246.59375,
+        "width": 262.5,
+        "height": 636.40625,
+        "right": 746,
+        "bottom": 883
+      },
+      "log": {
+        "x": 503.5,
+        "y": 486.6875,
+        "width": 222.5,
+        "height": 376.3125,
+        "right": 726,
+        "bottom": 863
+      },
+      "call": {
+        "x": 185,
+        "y": 182.59375,
+        "width": 583,
+        "height": 717.40625,
+        "right": 768,
+        "bottom": 900
+      },
+      "controls": {
+        "x": 207,
+        "y": 767,
+        "width": 262.5,
+        "height": 116,
+        "right": 469.5,
+        "bottom": 883
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "bodyWidth": 390,
+      "viewportHeight": 844,
+      "stage": {
+        "x": 10,
+        "y": 219.59375,
+        "width": 370,
+        "height": 185.6796875,
+        "right": 380,
+        "bottom": 405.2734375
+      },
+      "transcript": {
+        "x": 10,
+        "y": 477.2734375,
+        "width": 370,
+        "height": 355.7265625,
+        "right": 380,
+        "bottom": 833
+      },
+      "log": {
+        "x": 24,
+        "y": 567.7734375,
+        "width": 342,
+        "height": 251.2265625,
+        "right": 366,
+        "bottom": 819
+      },
+      "call": {
+        "x": 0,
+        "y": 166.59375,
+        "width": 390,
+        "height": 677.40625,
+        "right": 390,
+        "bottom": 844
+      },
+      "controls": {
+        "x": 10,
+        "y": 414.2734375,
+        "width": 370,
+        "height": 54,
+        "right": 380,
+        "bottom": 468.2734375
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "theme": "dark",
+      "bodyWidth": 320,
+      "viewportHeight": 568,
+      "stage": {
+        "x": 10,
+        "y": 202,
+        "width": 300,
+        "height": 80,
+        "right": 310,
+        "bottom": 282
+      },
+      "transcript": {
+        "x": 10,
+        "y": 350,
+        "width": 300,
+        "height": 207,
+        "right": 310,
+        "bottom": 557
+      },
+      "log": {
+        "x": 20,
+        "y": 432.5,
+        "width": 280,
+        "height": 114.5,
+        "right": 300,
+        "bottom": 547
+      },
+      "call": {
+        "x": 0,
+        "y": 151,
+        "width": 320,
+        "height": 417,
+        "right": 320,
+        "bottom": 568
+      },
+      "controls": {
+        "x": 10,
+        "y": 289,
+        "width": 300,
+        "height": 54,
+        "right": 310,
+        "bottom": 343
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "bodyWidth": 1440,
+      "viewportHeight": 1000,
+      "stage": {
+        "x": 212,
+        "y": 246.59375,
+        "width": 695.328125,
+        "height": 656.40625,
+        "right": 907.328125,
+        "bottom": 903
+      },
+      "transcript": {
+        "x": 921.328125,
+        "y": 246.59375,
+        "width": 496.6640625,
+        "height": 736.40625,
+        "right": 1417.9921875,
+        "bottom": 983
+      },
+      "log": {
+        "x": 941.328125,
+        "y": 449.890625,
+        "width": 456.6640625,
+        "height": 513.109375,
+        "right": 1397.9921875,
+        "bottom": 963
+      },
+      "call": {
+        "x": 190,
+        "y": 182.59375,
+        "width": 1250,
+        "height": 817.40625,
+        "right": 1440,
+        "bottom": 1000
+      },
+      "controls": {
+        "x": 212,
+        "y": 917,
+        "width": 695.328125,
+        "height": 66,
+        "right": 907.328125,
+        "bottom": 983
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "theme": "light",
+      "bodyWidth": 768,
+      "viewportHeight": 900,
+      "stage": {
+        "x": 207,
+        "y": 246.59375,
+        "width": 262.5,
+        "height": 506.40625,
+        "right": 469.5,
+        "bottom": 753
+      },
+      "transcript": {
+        "x": 483.5,
+        "y": 246.59375,
+        "width": 262.5,
+        "height": 636.40625,
+        "right": 746,
+        "bottom": 883
+      },
+      "log": {
+        "x": 503.5,
+        "y": 486.6875,
+        "width": 222.5,
+        "height": 376.3125,
+        "right": 726,
+        "bottom": 863
+      },
+      "call": {
+        "x": 185,
+        "y": 182.59375,
+        "width": 583,
+        "height": 717.40625,
+        "right": 768,
+        "bottom": 900
+      },
+      "controls": {
+        "x": 207,
+        "y": 767,
+        "width": 262.5,
+        "height": 116,
+        "right": 469.5,
+        "bottom": 883
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "bodyWidth": 390,
+      "viewportHeight": 844,
+      "stage": {
+        "x": 10,
+        "y": 219.59375,
+        "width": 370,
+        "height": 185.6796875,
+        "right": 380,
+        "bottom": 405.2734375
+      },
+      "transcript": {
+        "x": 10,
+        "y": 477.2734375,
+        "width": 370,
+        "height": 355.7265625,
+        "right": 380,
+        "bottom": 833
+      },
+      "log": {
+        "x": 24,
+        "y": 567.7734375,
+        "width": 342,
+        "height": 251.2265625,
+        "right": 366,
+        "bottom": 819
+      },
+      "call": {
+        "x": 0,
+        "y": 166.59375,
+        "width": 390,
+        "height": 677.40625,
+        "right": 390,
+        "bottom": 844
+      },
+      "controls": {
+        "x": 10,
+        "y": 414.2734375,
+        "width": 370,
+        "height": 54,
+        "right": 380,
+        "bottom": 468.2734375
+      },
+      "scrollTop": 0
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "theme": "light",
+      "bodyWidth": 320,
+      "viewportHeight": 568,
+      "stage": {
+        "x": 10,
+        "y": 202,
+        "width": 300,
+        "height": 80,
+        "right": 310,
+        "bottom": 282
+      },
+      "transcript": {
+        "x": 10,
+        "y": 350,
+        "width": 300,
+        "height": 207,
+        "right": 310,
+        "bottom": 557
+      },
+      "log": {
+        "x": 20,
+        "y": 432.5,
+        "width": 280,
+        "height": 114.5,
+        "right": 300,
+        "bottom": 547
+      },
+      "call": {
+        "x": 0,
+        "y": 151,
+        "width": 320,
+        "height": 417,
+        "right": 320,
+        "bottom": 568
+      },
+      "controls": {
+        "x": 10,
+        "y": 289,
+        "width": 300,
+        "height": 54,
+        "right": 310,
+        "bottom": 343
+      },
+      "scrollTop": 0
+    }
+  ],
+  "voice": [
+    {
+      "events": [
+        {
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "transcript": "What do you believe is the most essential value that must guide our decision?",
+      "call": "In the conversation AI audio on Add AI"
+    },
+    {
+      "events": [
+        {
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "transcript": "What do you believe is the most essential value that must guide our decision?",
+      "call": "In the conversation AI audio on Add AI"
+    }
+  ],
+  "pass": true
+}

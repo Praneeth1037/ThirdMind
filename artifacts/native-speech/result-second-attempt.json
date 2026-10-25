@@ -1,0 +1,593 @@
+{
+  "input": "Socrates, what do you think?",
+  "audioFile": "artifacts/native-speech/microphone.wav",
+  "recognition": [
+    {
+      "event": "start",
+      "at": 1792931439315
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931439615
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931446202
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931446203
+    },
+    {
+      "event": "result",
+      "text": "hi",
+      "final": false,
+      "at": 1792931458898
+    },
+    {
+      "event": "result",
+      "text": "hi",
+      "final": true,
+      "at": 1792931459144
+    },
+    {
+      "event": "speechend",
+      "at": 1792931460190
+    },
+    {
+      "event": "error",
+      "error": "aborted",
+      "at": 1792931460191
+    },
+    {
+      "event": "end",
+      "at": 1792931460191
+    },
+    {
+      "event": "start",
+      "at": 1792931460265
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931460265
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931461139
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931461139
+    },
+    {
+      "event": "result",
+      "text": "so",
+      "final": false,
+      "at": 1792931461139
+    },
+    {
+      "event": "result",
+      "text": "Socrates",
+      "final": false,
+      "at": 1792931461255
+    },
+    {
+      "event": "result",
+      "text": "Socrates",
+      "final": false,
+      "at": 1792931461851
+    },
+    {
+      "event": "result",
+      "text": " what",
+      "final": false,
+      "at": 1792931461851
+    },
+    {
+      "event": "result",
+      "text": "Socrates",
+      "final": false,
+      "at": 1792931461973
+    },
+    {
+      "event": "result",
+      "text": " what do",
+      "final": false,
+      "at": 1792931461973
+    },
+    {
+      "event": "result",
+      "text": "Socrates",
+      "final": false,
+      "at": 1792931462221
+    },
+    {
+      "event": "result",
+      "text": " what do you",
+      "final": false,
+      "at": 1792931462221
+    },
+    {
+      "event": "result",
+      "text": "Socrates",
+      "final": false,
+      "at": 1792931462277
+    },
+    {
+      "event": "result",
+      "text": " what do you think",
+      "final": false,
+      "at": 1792931462277
+    },
+    {
+      "event": "result",
+      "text": "Socrates what",
+      "final": false,
+      "at": 1792931462454
+    },
+    {
+      "event": "result",
+      "text": " do you think",
+      "final": false,
+      "at": 1792931462454
+    },
+    {
+      "event": "start",
+      "at": 1792931468291
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931468565
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931469846
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931469847
+    },
+    {
+      "event": "result",
+      "text": "soccer",
+      "final": false,
+      "at": 1792931470696
+    },
+    {
+      "event": "result",
+      "text": "soccer test",
+      "final": false,
+      "at": 1792931471055
+    },
+    {
+      "event": "result",
+      "text": "Socrates can",
+      "final": false,
+      "at": 1792931471279
+    },
+    {
+      "event": "result",
+      "text": "soccer test can",
+      "final": false,
+      "at": 1792931471317
+    },
+    {
+      "event": "result",
+      "text": "soccer test can you",
+      "final": false,
+      "at": 1792931471398
+    },
+    {
+      "event": "result",
+      "text": "soccer test can you speak",
+      "final": false,
+      "at": 1792931471470
+    },
+    {
+      "event": "result",
+      "text": "soccer test can",
+      "final": false,
+      "at": 1792931471748
+    },
+    {
+      "event": "result",
+      "text": " you speak",
+      "final": false,
+      "at": 1792931471748
+    },
+    {
+      "event": "result",
+      "text": "soccer test can you speak",
+      "final": true,
+      "at": 1792931471881
+    },
+    {
+      "event": "speechend",
+      "at": 1792931475263
+    },
+    {
+      "event": "error",
+      "error": "aborted",
+      "at": 1792931475263
+    },
+    {
+      "event": "end",
+      "at": 1792931475263
+    },
+    {
+      "event": "speechend",
+      "at": 1792931476077
+    },
+    {
+      "event": "error",
+      "error": "aborted",
+      "at": 1792931476102
+    },
+    {
+      "event": "end",
+      "at": 1792931476102
+    },
+    {
+      "event": "start",
+      "at": 1792931477098
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931477391
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931479519
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931479520
+    },
+    {
+      "event": "result",
+      "text": "UT",
+      "final": false,
+      "at": 1792931490286
+    },
+    {
+      "event": "result",
+      "text": "util",
+      "final": false,
+      "at": 1792931490532
+    },
+    {
+      "event": "result",
+      "text": "utilit",
+      "final": false,
+      "at": 1792931490596
+    },
+    {
+      "event": "result",
+      "text": "utilitar",
+      "final": false,
+      "at": 1792931490795
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931490816
+    },
+    {
+      "event": "result",
+      "text": "utilitarian B",
+      "final": false,
+      "at": 1792931491338
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491439
+    },
+    {
+      "event": "result",
+      "text": " bant",
+      "final": false,
+      "at": 1792931491439
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491581
+    },
+    {
+      "event": "result",
+      "text": " bantam",
+      "final": false,
+      "at": 1792931491581
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491603
+    },
+    {
+      "event": "result",
+      "text": " bedtime",
+      "final": false,
+      "at": 1792931491603
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491725
+    },
+    {
+      "event": "result",
+      "text": " Bantam can",
+      "final": false,
+      "at": 1792931491725
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491808
+    },
+    {
+      "event": "result",
+      "text": " bedtime can",
+      "final": false,
+      "at": 1792931491808
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931491870
+    },
+    {
+      "event": "result",
+      "text": " bedtime can you",
+      "final": false,
+      "at": 1792931491870
+    },
+    {
+      "event": "result",
+      "text": "utilitarian",
+      "final": false,
+      "at": 1792931492036
+    },
+    {
+      "event": "result",
+      "text": " bedtime can you speak",
+      "final": false,
+      "at": 1792931492036
+    },
+    {
+      "event": "result",
+      "text": "utilitarian bedtime can",
+      "final": false,
+      "at": 1792931492323
+    },
+    {
+      "event": "result",
+      "text": " you speak",
+      "final": false,
+      "at": 1792931492323
+    },
+    {
+      "event": "result",
+      "text": "utilitarian bedtime can you",
+      "final": false,
+      "at": 1792931492394
+    },
+    {
+      "event": "result",
+      "text": " speak",
+      "final": false,
+      "at": 1792931492394
+    },
+    {
+      "event": "result",
+      "text": "utilitarian bedtime can you speak",
+      "final": true,
+      "at": 1792931492665
+    },
+    {
+      "event": "speechend",
+      "at": 1792931506742
+    },
+    {
+      "event": "end",
+      "at": 1792931506834
+    },
+    {
+      "event": "start",
+      "at": 1792931507188
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931507464
+    }
+  ],
+  "synthesis": [
+    {
+      "event": "start",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931433612
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931433927
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 6,
+      "at": 1792931434311
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 15,
+      "at": 1792931434801
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 18,
+      "at": 1792931434940
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 27,
+      "at": 1792931435751
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 35,
+      "at": 1792931436156
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 38,
+      "at": 1792931436220
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 46,
+      "at": 1792931436743
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 51,
+      "at": 1792931437052
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 54,
+      "at": 1792931437255
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 60,
+      "at": 1792931437969
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 65,
+      "at": 1792931438140
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 69,
+      "at": 1792931438449
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 71,
+      "at": 1792931438492
+    },
+    {
+      "event": "end",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931439164
+    },
+    {
+      "event": "start",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 0,
+      "at": 1792931476104
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 0,
+      "at": 1792931476317
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 7,
+      "at": 1792931476637
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 10,
+      "at": 1792931476691
+    },
+    {
+      "event": "error",
+      "error": "interrupted",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "at": 1792931477040
+    }
+  ],
+  "pageErrors": [],
+  "roomUrl": "http://localhost:3000/room/ethics-study-group-e7a087c7fed5c22e41c4e031",
+  "audioTrackDiagnostic": {
+    "events": [
+      {
+        "event": "start"
+      },
+      {
+        "event": "result",
+        "text": "so",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates",
+        "final": false
+      },
+      {
+        "event": "result",
+        "text": "Socrates what",
+        "final": false
+      }
+    ],
+    "outcome": "timeout"
+  },
+  "aiMessages": [
+    "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?"
+  ],
+  "visibleSpeechError": [],
+  "visiblePlaybackError": [],
+  "captionText": "Native voice test (you)\nFinal\n\nhi\n\nNative voice test (you)\nFinal\n\nsoccer test can you speak\n\nSocrates\nInterrupted\n\nBefore we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+  "voiceStatus": "Listening for your speech"
+}

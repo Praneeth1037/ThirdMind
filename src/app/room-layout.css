@@ -1,0 +1,416 @@
+/* The room uses the same botanical palette as the campus homepage. */
+.room-shell {
+  background: #151c17;
+  color: #e9eee2;
+}
+.room-shell .sidebar {
+  background: #111813;
+  border-color: #344234;
+}
+.room-shell .room-main {
+  background: #18201a;
+}
+.room-shell .page-topbar,
+.room-shell .room-tabs {
+  border-color: #354335;
+}
+.room-shell .page-topbar {
+  background: #18201a;
+}
+.room-shell .room-heading {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 28px 30px;
+  min-height: 132px;
+  border-bottom: 1px solid #354335;
+  gap: 20px;
+}
+.room-shell.has-scenario:not(.room-in-call) .room-heading {
+  min-height: 185px;
+}
+.room-scene-cover {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.46;
+}
+.room-scene-cover:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #152019 10%, #152019bf 50%, #15201922);
+}
+.room-shell .room-heading > div:not(.room-scene-cover) {
+  position: relative;
+}
+.room-shell .room-heading h1 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  color: #f0f1e8;
+}
+.room-shell .room-heading .eyebrow {
+  color: #b8c8a6;
+}
+.room-shell .room-heading p:last-child {
+  color: #bdc9b2;
+}
+.room-shell .button.primary {
+  background: #d1e2b0;
+  color: #263d29;
+  border-color: #d1e2b0;
+}
+.room-shell .room-tabs .selected {
+  border-bottom-color: #c5dca6;
+  color: #d4e5bf;
+}
+.room-shell .chat-scroll {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.room-shell .composer-area {
+  background: #18201a;
+  border-color: #344535;
+}
+.room-shell .composer {
+  background: #202a22;
+  border-color: #506149;
+  border-radius: 12px;
+}
+.room-shell .room-minds-panel {
+  background: #141d17;
+  border-color: #344535;
+}
+.room-shell .minds-panel-title {
+  border-color: #344535;
+}
+.room-shell .minds-panel-title h2 {
+  font-family: Georgia, serif;
+  color: #e4edda;
+}
+.room-shell .room-mind-card {
+  padding: 0;
+  border: 1px solid #394d38;
+  border-radius: 11px;
+  overflow: hidden;
+  background: #1d2920;
+}
+.room-mind-portrait {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/8;
+  background: #263529;
+}
+.room-mind-portrait:after {
+  content: "";
+  position: absolute;
+  inset: 50% 0 0;
+  background: linear-gradient(transparent, #1d292088);
+}
+.room-shell .room-mind-top {
+  padding: 14px 14px 0;
+}
+.room-shell .room-mind-top .mind-avatar {
+  display: none;
+}
+.room-shell .room-mind-top h3 {
+  font:
+    400 21px/1.3 Georgia,
+    serif;
+}
+.room-shell .room-mind-card > p,
+.room-shell .room-mind-card > .character-voice-label {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.room-shell .mind-card-actions {
+  margin: 13px 14px 15px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.room-shell .room-mind-card.speaking {
+  border-color: #bbd899;
+  box-shadow: 0 0 0 1px #bbd89955;
+}
+.room-shell .room-mind-card.muted .room-mind-portrait {
+  opacity: 0.6;
+}
+.room-shell .ai-message {
+  border-color: #42563d;
+  background: #2634264f;
+}
+.room-shell .ai-badge {
+  color: #c7dcb0;
+  background: #a2bd7c15;
+}
+.room-shell .mobile-minds {
+  background: #263d2c;
+  color: #e0efca;
+  border-color: #789265;
+}
+.room-shell .room-error {
+  background: #3b3022;
+  color: #ead5b3;
+  border-color: #615039;
+  font-size: 11px;
+}
+.room-in-call .room-heading {
+  min-height: 86px;
+  padding: 17px 26px;
+}
+.room-in-call .room-heading h1 {
+  font-size: 28px;
+}
+.room-in-call .call-panel {
+  padding: 20px 26px;
+  background: #111a14;
+  border-color: #3e523b;
+}
+.room-in-call .call-layout {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.7fr) minmax(250px, 0.75fr);
+  gap: 16px;
+}
+.room-in-call .call-layout > .call-status {
+  grid-column: 1/-1;
+  grid-row: 1;
+  margin-bottom: 0;
+  color: #c2d4b2;
+  font-size: 10px;
+}
+.room-in-call .call-layout > .call-grid {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+.room-in-call .call-layout .call-grid > .lk-grid-layout {
+  height: 220px !important;
+  min-height: 220px;
+  flex: none;
+}
+.room-in-call .call-layout .call-minds {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: max-content;
+  align-content: start;
+  gap: 12px;
+  max-height: 380px;
+  overflow-y: auto;
+  padding-bottom: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #6b825b #172219;
+}
+.room-in-call .call-layout .call-mind {
+  width: 100%;
+  min-width: 0;
+  min-height: 170px;
+  aspect-ratio: 16/10;
+  border-radius: 12px;
+  border-color: #4f6247;
+}
+.room-in-call .call-mind:after {
+  background: linear-gradient(transparent 35%, #0c160fe6);
+}
+.room-in-call .call-mind-info {
+  left: 14px;
+  right: 90px;
+  bottom: 16px;
+}
+.room-in-call .call-layout .call-mind strong {
+  font:
+    400 19px/1.25 Georgia,
+    serif;
+  color: #f2f5e8;
+}
+.room-in-call .call-layout .call-mind small {
+  color: #c4d5b4;
+  font-size: 9px;
+}
+.room-in-call .call-mind > .mind-speak-button {
+  background: #d1e2b0;
+  color: #253c25;
+  border-color: #d1e2b0;
+  right: 12px;
+  bottom: 14px;
+  border-radius: 7px;
+  min-height: 36px;
+}
+.room-in-call .call-layout .call-mind.speaking {
+  border-color: #d0e6a8;
+  box-shadow: 0 0 0 2px #b7d28e60;
+}
+.room-in-call .call-layout > .voice-minds {
+  grid-column: 2;
+  grid-row: 2/4;
+  padding: 18px;
+  background: #1b271e;
+  border: 1px solid #3e5139;
+  border-radius: 12px;
+  min-width: 0;
+}
+.room-in-call .voice-disclosure {
+  color: #91a683;
+}
+.room-in-call .call-layout .live-captions {
+  border-color: #3b5137;
+  background: #162019;
+  border-radius: 8px;
+}
+.room-in-call .call-layout .caption-log {
+  max-height: 340px;
+}
+.room-in-call .call-layout .caption-entry p {
+  color: #e0e9d5;
+  font-size: 12px;
+  line-height: 1.85;
+}
+.room-in-call .call-layout > .call-controls {
+  grid-column: 1;
+  grid-row: 3;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #354a33;
+  border-radius: 12px;
+  background: #1b281e;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.room-in-call .call-controls button {
+  background: #293c2a;
+  border-color: #4b6541;
+  color: #dfebd3;
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 10px 14px;
+}
+.room-in-call .call-controls .lk-disconnect-button {
+  background: #643e34;
+  border-color: #9b6753;
+  color: #ffe3d6;
+}
+.room-in-call .call-read-aloud[aria-checked="true"] {
+  background: #accb7e20;
+  color: #d4e7b8;
+}
+.room-in-call .call-add-mind {
+  border-color: #728d5e;
+  color: #d7e7c1;
+  border-radius: 7px;
+}
+.room-in-call .chat-scroll {
+  max-height: 350px;
+  flex: 1 0 150px;
+}
+@media (max-width: 1190px) {
+  .room-in-call .call-layout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(235px, 0.8fr);
+    gap: 12px;
+  }
+  .room-in-call .call-panel {
+    padding: 16px;
+  }
+  .room-in-call .call-mind-info {
+    bottom: 54px;
+    right: 12px;
+    left: 12px;
+  }
+  .room-in-call .call-mind > .mind-speak-button {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 720px) {
+  .room-shell .room-heading {
+    padding: 22px 17px;
+    min-height: 120px;
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  .room-shell.has-scenario:not(.room-in-call) .room-heading {
+    min-height: 190px;
+  }
+  .room-shell .room-heading h1 {
+    font-size: 29px;
+  }
+  .room-shell .room-heading > div:first-of-type:not(.room-scene-cover) {
+    min-width: 0;
+  }
+  .room-shell .chat-scroll {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .room-in-call .room-heading {
+    min-height: 68px;
+    padding: 15px;
+  }
+  .room-in-call .room-heading h1 {
+    font-size: 23px;
+  }
+  .room-in-call .call-panel {
+    padding: 12px;
+  }
+  .room-in-call .call-layout {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .room-in-call .call-layout > .call-status {
+    order: 0;
+  }
+  .room-in-call .call-layout > .call-grid {
+    order: 1;
+  }
+  .room-in-call .call-layout > .call-controls {
+    order: 2;
+  }
+  .room-in-call .call-layout > .voice-minds {
+    order: 3;
+    padding: 15px;
+  }
+  .room-in-call .call-layout .call-grid > .lk-grid-layout {
+    height: 180px !important;
+    min-height: 180px;
+  }
+  .room-in-call .call-layout .call-minds {
+    max-height: 340px;
+    gap: 10px;
+  }
+  .room-in-call .call-layout .call-mind {
+    min-height: 145px;
+    border-radius: 9px;
+  }
+  .room-in-call .call-layout .call-mind strong {
+    font-size: 16px;
+  }
+  .room-in-call .call-mind-info {
+    bottom: 54px;
+    left: 10px;
+    right: 10px;
+  }
+  .room-in-call .call-layout .call-mind small {
+    font-size: 8px;
+    line-height: 1.5;
+  }
+  .room-in-call .call-layout > .call-controls {
+    padding: 9px;
+    gap: 7px;
+  }
+  .room-in-call .call-controls button {
+    padding: 9px;
+    min-height: 38px;
+    font-size: 10px;
+  }
+  .room-in-call .call-layout .caption-log {
+    max-height: 220px;
+  }
+  .room-in-call .chat-scroll {
+    max-height: 290px;
+    min-height: 100px;
+    flex: none;
+  }
+}

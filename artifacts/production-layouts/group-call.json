@@ -1,0 +1,265 @@
+{
+  "testedUrl": "https://thirdmind-psi.vercel.app",
+  "backend": "Vercel production",
+  "checkedAt": "2026-10-25T17:40:04.988Z",
+  "generatedDevices": true,
+  "checks": {
+    "sharedChat": true,
+    "silentUntilAsked": true,
+    "cloudCallConnectedBoth": true,
+    "twoWayAudioVideo": true,
+    "addAIUpdatesBoth": true,
+    "thirdAITileDoesNotOverlap": true,
+    "callLayoutsFitAllWidths": true,
+    "realAIReplyBoth": true,
+    "speechCompletesBoth": true,
+    "muteAISyncs": true,
+    "stopAIStopsBoth": true,
+    "mobileCallFits": true,
+    "mobileTilesDoNotOverlap": true,
+    "chatSurvivesCall": true,
+    "productionOnly": true
+  },
+  "apiOrigins": [
+    "https://thirdmind-psi.vercel.app"
+  ],
+  "websocketHosts": [
+    "thridmind-8ttw3hoe.livekit.cloud"
+  ],
+  "localRequests": [],
+  "pageErrors": [],
+  "receivedMedia": [
+    [
+      {
+        "kind": "audio",
+        "bytesReceived": 61
+      },
+      {
+        "kind": "video",
+        "bytesReceived": 10069,
+        "framesDecoded": 8
+      }
+    ],
+    [
+      {
+        "kind": "audio",
+        "bytesReceived": 114
+      },
+      {
+        "kind": "video",
+        "bytesReceived": 6085,
+        "framesDecoded": 13
+      }
+    ]
+  ],
+  "desktopTiles": {
+    "count": 3,
+    "overlap": false,
+    "rects": [
+      {
+        "x": 216,
+        "y": 492,
+        "width": 404.078125,
+        "height": 252.546875
+      },
+      {
+        "x": 632.078125,
+        "y": 492,
+        "width": 404.078125,
+        "height": 252.546875
+      },
+      {
+        "x": 216,
+        "y": 756.546875,
+        "width": 404.078125,
+        "height": 252.546875
+      }
+    ]
+  },
+  "callLayouts": [
+    {
+      "width": 320,
+      "bodyWidth": 320,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 12,
+          "y": 318,
+          "width": 143,
+          "height": 145
+        },
+        {
+          "x": 165,
+          "y": 318,
+          "width": 143,
+          "height": 145
+        },
+        {
+          "x": 12,
+          "y": 473,
+          "width": 143,
+          "height": 145
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 12,
+          "y": 318,
+          "width": 178,
+          "height": 145
+        },
+        {
+          "x": 200,
+          "y": 318,
+          "width": 178,
+          "height": 145
+        },
+        {
+          "x": 12,
+          "y": 473,
+          "width": 178,
+          "height": 145
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "bodyWidth": 768,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 201,
+          "y": 484,
+          "width": 146,
+          "height": 170
+        },
+        {
+          "x": 359,
+          "y": 484,
+          "width": 146,
+          "height": 170
+        },
+        {
+          "x": 201,
+          "y": 666,
+          "width": 146,
+          "height": 170
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "bodyWidth": 1440,
+      "count": 3,
+      "overlap": false,
+      "rects": [
+        {
+          "x": 216,
+          "y": 492,
+          "width": 404.078125,
+          "height": 252.546875
+        },
+        {
+          "x": 632.078125,
+          "y": 492,
+          "width": 404.078125,
+          "height": 252.546875
+        },
+        {
+          "x": 216,
+          "y": 756.546875,
+          "width": 404.078125,
+          "height": 252.546875
+        }
+      ]
+    }
+  ],
+  "completedSpeech": [
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you mean by \"save five\"? Is that a purely numerical benefit, or does it involve other values?",
+      "call": "In the conversation AI audio on Add AI",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "scriptedDemo": false
+    },
+    {
+      "events": [
+        {
+          "source": "device",
+          "event": "start",
+          "voice": "Eddy (English (United States))"
+        },
+        {
+          "source": "device",
+          "event": "end",
+          "voice": "Eddy (English (United States))"
+        }
+      ],
+      "reply": "What do you mean by \"save five\"? Is that a purely numerical benefit, or does it involve other values?",
+      "call": "In the conversation AI audio on Add AI",
+      "notice": "Natural speech is temporarily unavailable. Using a device speaking voice for this reply.",
+      "scriptedDemo": false
+    }
+  ],
+  "startedBentham": [
+    [
+      {
+        "source": "device",
+        "event": "start",
+        "voice": "Daniel"
+      }
+    ],
+    [
+      {
+        "source": "device",
+        "event": "start",
+        "voice": "Daniel"
+      }
+    ]
+  ],
+  "mobileCallWidth": 390,
+  "mobileTiles": {
+    "count": 3,
+    "overlap": false,
+    "rects": [
+      {
+        "x": 12,
+        "y": 217.59375,
+        "width": 178,
+        "height": 145
+      },
+      {
+        "x": 200,
+        "y": 217.59375,
+        "width": 178,
+        "height": 145
+      },
+      {
+        "x": 12,
+        "y": 372.59375,
+        "width": 178,
+        "height": 145
+      }
+    ]
+  },
+  "pass": true
+}

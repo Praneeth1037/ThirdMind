@@ -1,0 +1,113 @@
+{
+  "duration" : 108,
+  "frames" : [
+    {
+      "seconds" : 0,
+      "file" : "frame-00.jpg",
+      "height" : 720,
+      "width" : 1280
+    },
+    {
+      "seconds" : 6,
+      "file" : "frame-01.jpg",
+      "width" : 1280,
+      "height" : 720
+    },
+    {
+      "file" : "frame-02.jpg",
+      "seconds" : 12,
+      "width" : 1280,
+      "height" : 720
+    },
+    {
+      "file" : "frame-03.jpg",
+      "width" : 1280,
+      "height" : 720,
+      "seconds" : 18
+    },
+    {
+      "seconds" : 24,
+      "height" : 720,
+      "file" : "frame-04.jpg",
+      "width" : 1280
+    },
+    {
+      "seconds" : 30,
+      "width" : 1280,
+      "height" : 720,
+      "file" : "frame-05.jpg"
+    },
+    {
+      "file" : "frame-06.jpg",
+      "width" : 1280,
+      "seconds" : 36,
+      "height" : 720
+    },
+    {
+      "file" : "frame-07.jpg",
+      "height" : 720,
+      "seconds" : 42,
+      "width" : 1280
+    },
+    {
+      "seconds" : 48,
+      "file" : "frame-08.jpg",
+      "height" : 720,
+      "width" : 1280
+    },
+    {
+      "height" : 720,
+      "width" : 1280,
+      "file" : "frame-09.jpg",
+      "seconds" : 54
+    },
+    {
+      "width" : 1280,
+      "seconds" : 60,
+      "file" : "frame-10.jpg",
+      "height" : 720
+    },
+    {
+      "height" : 720,
+      "seconds" : 66,
+      "file" : "frame-11.jpg",
+      "width" : 1280
+    },
+    {
+      "file" : "frame-12.jpg",
+      "height" : 720,
+      "seconds" : 72,
+      "width" : 1280
+    },
+    {
+      "height" : 720,
+      "seconds" : 78,
+      "file" : "frame-13.jpg",
+      "width" : 1280
+    },
+    {
+      "file" : "frame-14.jpg",
+      "seconds" : 84,
+      "width" : 1280,
+      "height" : 720
+    },
+    {
+      "seconds" : 90,
+      "file" : "frame-15.jpg",
+      "height" : 720,
+      "width" : 1280
+    },
+    {
+      "file" : "frame-16.jpg",
+      "width" : 1280,
+      "height" : 720,
+      "seconds" : 96
+    },
+    {
+      "height" : 720,
+      "file" : "frame-17.jpg",
+      "seconds" : 102,
+      "width" : 1280
+    }
+  ]
+}

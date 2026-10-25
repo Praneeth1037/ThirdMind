@@ -1,0 +1,67 @@
+{
+  "portraits": [
+    {
+      "name": "Socrates",
+      "asset": "/images/minds/socrates.jpg"
+    },
+    {
+      "name": "Bentham",
+      "asset": "/images/minds/utilitarian.jpg"
+    },
+    {
+      "name": "Kantian",
+      "asset": "/images/minds/kantian.jpg"
+    },
+    {
+      "name": "Feynman",
+      "asset": "/images/minds/feynman.jpg"
+    },
+    {
+      "name": "Judge",
+      "asset": "/images/minds/judge.jpg"
+    },
+    {
+      "name": "Mediator",
+      "asset": "/images/minds/mediator.jpg"
+    },
+    {
+      "name": "Doctor",
+      "asset": "/images/minds/doctor.jpg"
+    },
+    {
+      "name": "Medical Ethicist",
+      "asset": "/images/minds/medical_ethicist.jpg"
+    },
+    {
+      "name": "Patient Advocate",
+      "asset": "/images/minds/patient_advocate.jpg"
+    },
+    {
+      "name": "Architect",
+      "asset": "/images/minds/architect.jpg"
+    },
+    {
+      "name": "Security Engineer",
+      "asset": "/images/minds/security.jpg"
+    },
+    {
+      "name": "Devil’s Advocate",
+      "asset": "/images/minds/devils_advocate.jpg"
+    }
+  ],
+  "mobile": [
+    {
+      "width": 390,
+      "body": 390,
+      "dialog": 356,
+      "dialogClient": 356
+    },
+    {
+      "width": 320,
+      "body": 320,
+      "dialog": 286,
+      "dialogClient": 286
+    }
+  ],
+  "errors": []
+}

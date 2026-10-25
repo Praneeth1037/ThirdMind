@@ -1,0 +1,24 @@
+{
+  "playback": "Native audio on each call participant's device; not a published AI RTP track",
+  "participants": [
+    [
+      {
+        "event": "playing",
+        "duration": 10.425
+      },
+      {
+        "event": "ended"
+      }
+    ],
+    [
+      {
+        "event": "playing",
+        "duration": 10.425
+      },
+      {
+        "event": "ended"
+      }
+    ]
+  ],
+  "errors": []
+}

@@ -1,0 +1,30 @@
+{
+  "project": "thirdmind",
+  "productionUrl": "https://thirdmind-psi.vercel.app",
+  "deploymentId": "dpl_BQJ63KbySYptKJA7gRSEmx2mHiBN",
+  "deploymentUrl": "https://thirdmind-446u695jx-praneeth1037s-projects.vercel.app",
+  "status": "READY",
+  "verified": {
+    "unitTests": 89,
+    "productionLiveAI": true,
+    "independentBrowserCallAudio": true,
+    "responsiveWidths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "naturalCloudSpeech": "Awaiting account-owner activation in Groq; device voice fallback verified",
+    "unitTestsNote": "89 passed on prior functional release; this CSS-only patch was verified with a production build and remote browser checks.",
+    "productionAudit": "artifacts/production-audit/report.md",
+    "threeAITilesNoOverlap": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "productionLayoutReport": "artifacts/production-layouts/layouts.json",
+    "redesignedCallReport": "artifacts/production-layouts/group-call.json"
+  },
+  "design": "Cream and green campus homepage, video stills, 12 portrait cards, scenario room covers and photo call tiles"
+}

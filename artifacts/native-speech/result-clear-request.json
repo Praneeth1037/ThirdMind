@@ -1,0 +1,382 @@
+{
+  "input": "Hey Socrates, please explain your position.",
+  "audioFile": "artifacts/native-speech/clear-microphone.wav",
+  "recognition": [
+    {
+      "event": "start",
+      "at": 1792931913263
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931913271
+    },
+    {
+      "event": "soundstart",
+      "at": 1792931917311
+    },
+    {
+      "event": "speechstart",
+      "at": 1792931917312
+    },
+    {
+      "event": "result",
+      "text": "hey",
+      "final": false,
+      "at": 1792931918148
+    },
+    {
+      "event": "result",
+      "text": "hey so",
+      "final": false,
+      "at": 1792931918387
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates",
+      "final": false,
+      "at": 1792931918553
+    },
+    {
+      "event": "result",
+      "text": "hey",
+      "final": false,
+      "at": 1792931918708
+    },
+    {
+      "event": "result",
+      "text": " Socrates",
+      "final": false,
+      "at": 1792931918708
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates",
+      "final": false,
+      "at": 1792931919087
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates",
+      "final": false,
+      "at": 1792931919380
+    },
+    {
+      "event": "result",
+      "text": " please",
+      "final": false,
+      "at": 1792931919380
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates",
+      "final": false,
+      "at": 1792931919670
+    },
+    {
+      "event": "result",
+      "text": " please explain",
+      "final": false,
+      "at": 1792931919670
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please",
+      "final": false,
+      "at": 1792931919953
+    },
+    {
+      "event": "result",
+      "text": " explain",
+      "final": false,
+      "at": 1792931919953
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please",
+      "final": false,
+      "at": 1792931920201
+    },
+    {
+      "event": "result",
+      "text": " explain your",
+      "final": false,
+      "at": 1792931920201
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please explain",
+      "final": false,
+      "at": 1792931920270
+    },
+    {
+      "event": "result",
+      "text": " your",
+      "final": false,
+      "at": 1792931920270
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please explain",
+      "final": false,
+      "at": 1792931920422
+    },
+    {
+      "event": "result",
+      "text": " your position",
+      "final": false,
+      "at": 1792931920422
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please explain your",
+      "final": false,
+      "at": 1792931920816
+    },
+    {
+      "event": "result",
+      "text": " position",
+      "final": false,
+      "at": 1792931920816
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please explain your position",
+      "final": false,
+      "at": 1792931920982
+    },
+    {
+      "event": "result",
+      "text": "hey Socrates please explain your position",
+      "final": true,
+      "at": 1792931921367
+    },
+    {
+      "event": "speechend",
+      "at": 1792931922115
+    },
+    {
+      "event": "error",
+      "error": "aborted",
+      "at": 1792931922138
+    },
+    {
+      "event": "end",
+      "at": 1792931922138
+    }
+  ],
+  "synthesis": [
+    {
+      "event": "start",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 0,
+      "at": 1792931922139
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 0,
+      "at": 1792931922411
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 7,
+      "at": 1792931922731
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 10,
+      "at": 1792931922784
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 16,
+      "at": 1792931923320
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 18,
+      "at": 1792931923648
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 23,
+      "at": 1792931923798
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 29,
+      "at": 1792931924064
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 32,
+      "at": 1792931924235
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 39,
+      "at": 1792931924502
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 44,
+      "at": 1792931924961
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 46,
+      "at": 1792931925441
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 50,
+      "at": 1792931925636
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 57,
+      "at": 1792931926176
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 59,
+      "at": 1792931926496
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 62,
+      "at": 1792931926603
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 66,
+      "at": 1792931926688
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 76,
+      "at": 1792931927275
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 83,
+      "at": 1792931927886
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 85,
+      "at": 1792931928274
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 87,
+      "at": 1792931928896
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 93,
+      "at": 1792931929248
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 98,
+      "at": 1792931929653
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 105,
+      "at": 1792931930177
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 112,
+      "at": 1792931930709
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 115,
+      "at": 1792931931029
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 119,
+      "at": 1792931931713
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 123,
+      "at": 1792931932064
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 130,
+      "at": 1792931933163
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 135,
+      "at": 1792931933430
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 143,
+      "at": 1792931934624
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 147,
+      "at": 1792931934891
+    },
+    {
+      "event": "boundary",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 152,
+      "at": 1792931935723
+    },
+    {
+      "event": "end",
+      "text": "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+      "charIndex": 0,
+      "at": 1792931936409
+    }
+  ],
+  "pageErrors": [],
+  "roomUrl": "http://localhost:3000/room/ethics-study-group-6031376e364dc8f54cc10ce0",
+  "aiMessages": [
+    "Before we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?"
+  ],
+  "visibleSpeechError": [],
+  "visiblePlaybackError": [],
+  "captionText": "Native voice test (you)\nFinal\n\nhey Socrates please explain your position\n\nSocrates\nSpeaking\n\nBefore we choose, what makes an action right: its outcome, or the principle behind it? Would your answer change if the one person were someone you loved?",
+  "voiceStatus": "Speaker active · recognition paused to prevent echo"
+}

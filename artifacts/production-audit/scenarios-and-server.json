@@ -1,0 +1,85 @@
+{
+  "testedUrl": "https://thirdmind-psi.vercel.app",
+  "backend": "Vercel production",
+  "checkedAt": "2026-10-25T17:22:34.397Z",
+  "checks": [
+    {
+      "scenario": "cs",
+      "roomCreated": true,
+      "provider": "groq",
+      "storage": "redis",
+      "matchedMinds": [
+        "architect",
+        "security",
+        "feynman"
+      ],
+      "silentUntilInvited": true,
+      "reply": "The trust boundary your project must protect is the point where the student’s authenticated session transitions from the client to your server—ensuring that only properly verified credentials can access protected resources and that any data exchanged across that boundary is validated, encrypted, and logged to prevent unauthorized access or injection attacks.",
+      "replyMind": "security",
+      "realAI": true,
+      "pass": true,
+      "unauthorized": {
+        "room": 401,
+        "callToken": 401,
+        "speech": 401
+      },
+      "livekit": {
+        "status": 200,
+        "host": "thridmind-8ttw3hoe.livekit.cloud",
+        "protocol": "wss:"
+      },
+      "naturalSpeech": {
+        "status": 503,
+        "bytes": 143,
+        "voice": null,
+        "error": "Natural voices need the account owner to review and accept the Orpheus model terms in Groq Console. Device voices remain available."
+      }
+    },
+    {
+      "scenario": "medical",
+      "roomCreated": true,
+      "provider": "groq",
+      "storage": "redis",
+      "matchedMinds": [
+        "doctor",
+        "medical_ethicist",
+        "patient_advocate"
+      ],
+      "silentUntilInvited": true,
+      "reply": "What specific information does the patient need to understand the risks, benefits, and alternatives of the treatment in order to give truly informed consent?",
+      "replyMind": "medical_ethicist",
+      "realAI": true,
+      "pass": true
+    },
+    {
+      "scenario": "friends",
+      "roomCreated": true,
+      "provider": "groq",
+      "storage": "redis",
+      "matchedMinds": [
+        "mediator",
+        "devils_advocate"
+      ],
+      "silentUntilInvited": true,
+      "reply": "How about a sunset walk in the campus park followed by a $12 pizza order?  \n- Maya: you’re free after 6 pm and it’s outdoors.  \n- Alex: the park is right on campus and you won’t need a car.  \n- Budget: $12 pizza plus a $3 tip keeps us under $15.  \n\nDoes that work for everyone?",
+      "replyMind": "mediator",
+      "realAI": true,
+      "pass": true
+    },
+    {
+      "scenario": "cooking",
+      "roomCreated": true,
+      "provider": "groq",
+      "storage": "redis",
+      "matchedMinds": [
+        "mediator",
+        "judge"
+      ],
+      "silentUntilInvited": true,
+      "reply": "The two key constraints are the vegan requirement and the peanut allergy.  \nCan we confirm the exact timing for each dish and whether any other allergens (e.g., nuts, soy) need to be avoided?",
+      "replyMind": "judge",
+      "realAI": true,
+      "pass": true
+    }
+  ]
+}

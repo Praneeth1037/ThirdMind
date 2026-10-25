@@ -1,0 +1,154 @@
+{
+  "input": "Socrates, what do you think?",
+  "audioFile": "artifacts/native-speech/microphone.wav",
+  "recognition": [
+    {
+      "event": "start",
+      "at": 1792931308993
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931309324
+    },
+    {
+      "event": "error",
+      "error": "no-speech",
+      "at": 1792931317175
+    },
+    {
+      "event": "end",
+      "at": 1792931317176
+    },
+    {
+      "event": "start",
+      "at": 1792931317529
+    },
+    {
+      "event": "audiostart",
+      "at": 1792931317811
+    }
+  ],
+  "synthesis": [
+    {
+      "event": "start",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931299185
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931299619
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 6,
+      "at": 1792931299833
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 15,
+      "at": 1792931300334
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 18,
+      "at": 1792931300451
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 25,
+      "at": 1792931301038
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 27,
+      "at": 1792931301690
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 35,
+      "at": 1792931302393
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 38,
+      "at": 1792931302756
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 46,
+      "at": 1792931303759
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 51,
+      "at": 1792931304462
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 54,
+      "at": 1792931304814
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 58,
+      "at": 1792931305625
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 60,
+      "at": 1792931305934
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 65,
+      "at": 1792931306351
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 69,
+      "at": 1792931306713
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 71,
+      "at": 1792931306915
+    },
+    {
+      "event": "boundary",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 79,
+      "at": 1792931308131
+    },
+    {
+      "event": "end",
+      "text": "Voice playback is working. Address an invited Mind by name, then ask a question.",
+      "charIndex": 0,
+      "at": 1792931308826
+    }
+  ],
+  "pageErrors": [],
+  "roomUrl": "http://localhost:3000/room/ethics-study-group-52c03567517c0df836d9275b",
+  "aiMessages": [],
+  "visibleSpeechError": [],
+  "visiblePlaybackError": [],
+  "captionText": "Start speaking. Your words will appear here as they are recognized.",
+  "voiceStatus": "Listening for your speech"
+}

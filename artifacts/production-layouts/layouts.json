@@ -1,0 +1,81 @@
+{
+  "origin": "https://thirdmind-psi.vercel.app",
+  "checkedAt": "2026-10-25T17:43:41.646Z",
+  "pageErrors": [],
+  "localRequests": [],
+  "failedAssets": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "width": 1024,
+      "bodyWidth": 1024
+    },
+    {
+      "width": 768,
+      "bodyWidth": 768
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390
+    },
+    {
+      "width": 320,
+      "bodyWidth": 320
+    }
+  ],
+  "homePortraits": 12,
+  "scenarios": [
+    {
+      "name": "Computer science",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Fcomputer-science.jpg&w=3840&q=75"
+    },
+    {
+      "name": "Medical",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Fmedical.jpg&w=3840&q=75"
+    },
+    {
+      "name": "Friends",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Ffriends.jpg&w=3840&q=75"
+    },
+    {
+      "name": "Cooking",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Fcooking.jpg&w=3840&q=75"
+    },
+    {
+      "name": "Philosophy",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Fphilosophy.jpg&w=3840&q=75"
+    },
+    {
+      "name": "Study together",
+      "image": "/_next/image?url=%2Fimages%2Fscenarios%2Fstudy.jpg&w=3840&q=75"
+    }
+  ],
+  "pickerPortraits": 12,
+  "video": {
+    "duration": 108.010604,
+    "source": "https://thirdmind-psi.vercel.app/videos/thirdmind-demo.mp4"
+  },
+  "roomPortraits": 3,
+  "roomLayouts": [
+    {
+      "width": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "width": 768,
+      "bodyWidth": 768
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390
+    },
+    {
+      "width": 320,
+      "bodyWidth": 320
+    }
+  ],
+  "pass": true
+}
