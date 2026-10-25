@@ -96,9 +96,6 @@ function CallContents({
           {readAloud ? <Volume2 size={14} /> : <VolumeX size={14} />} AI audio{" "}
           {readAloud ? "on" : "off"}
         </button>
-        <button className="call-add-mind" onClick={onAddMind}>
-          <Plus size={14} /> Add AI
-        </button>
       </div>
       <VoiceMinds
         room={room}
@@ -109,6 +106,14 @@ function CallContents({
         playbackCaption={playbackCaption}
       />
       <div className="call-grid">
+        <div className="call-add-mind-group">
+          <button className="call-add-mind" onClick={onAddMind}>
+            <Plus size={14} /> Add AI
+          </button>
+          <span className="call-add-mind-hint">
+            Add a Mind for another perspective.
+          </span>
+        </div>
         <GridLayout tracks={tracks} style={{ height: 220 }}>
           <ParticipantTile />
         </GridLayout>

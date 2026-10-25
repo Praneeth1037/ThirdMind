@@ -59,6 +59,7 @@ import { CharacterTTSProvider } from "@/lib/character-tts-provider";
 import { characterVoice, VOICE_PREVIEW } from "@/lib/character-voices";
 import { getScenario } from "@/lib/scenarios";
 import { getMindPortrait } from "@/lib/mind-portraits";
+import { IcebreakerPanel } from "./icebreaker-panel";
 
 function ActiveMindAvatar({
   id,
@@ -95,9 +96,11 @@ const serverSession = () => undefined;
 export function RoomClient({
   id,
   invited = false,
+  icebreakerInvite = false,
 }: {
   id: string;
   invited?: boolean;
+  icebreakerInvite?: boolean;
 }) {
   const [inviteAccepted, setInviteAccepted] = useState(false);
   const [roomView, setRoomView] = useState<"call" | "chat">("chat");
@@ -462,7 +465,7 @@ export function RoomClient({
   async function copyInvite() {
     try {
       await navigator.clipboard.writeText(
-        `${window.location.origin}/room/${id}?invite=1`,
+        `${window.location.origin}/room/${id}?invite=1${room?.icebreaker ? "&icebreaker=1" : ""}`,
       );
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
@@ -620,6 +623,7 @@ export function RoomClient({
           <EntryDialog
             mode="join"
             roomId={id}
+            icebreaker={icebreakerInvite}
             inline
             onClose={() => {
               setInviteAccepted(true);
@@ -656,8 +660,12 @@ export function RoomClient({
       </main>
     );
   const roomScenario = getScenario(room.scenario);
-  const scenarioTitle =
-    roomScenario?.tagline ?? "Your group. Your conversation.";
+  const scenarioTitle = room.icebreaker
+    ? "A small group conversation, with optional prompts when you want them."
+    : (roomScenario?.tagline ?? "Your group. Your conversation.");
+  const participantsInCall = activeMembers.filter(
+    (member) => member.inCall,
+  ).length;
   return (
     <div
       className={`app-shell room-shell ${call ? "room-in-call" : ""} ${room.scenario !== "blank" ? "has-scenario" : ""}`}
@@ -776,6 +784,14 @@ export function RoomClient({
             <ShieldCheck size={13} /> Invite-only · expires in 24h
           </div>
         </div>
+        {room.icebreaker && (
+          <IcebreakerPanel
+            room={room}
+            session={session}
+            participantsInCall={participantsInCall}
+            onRoomUpdate={updateRoom}
+          />
+        )}
         {error && (
           <div className="room-error" role="alert">
             <span>{error}</span>

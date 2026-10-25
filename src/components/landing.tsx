@@ -10,6 +10,7 @@ import {
   Plus,
   Play,
   Sparkles,
+  UsersRound,
   Video,
   Volume2,
 } from "lucide-react";
@@ -27,6 +28,7 @@ type Entry = {
   mode: "create" | "join";
   scenario: ScenarioId;
   initialMind?: string;
+  icebreaker?: boolean;
 };
 export function Landing() {
   const [entry, setEntry] = useState<Entry | null>(null);
@@ -36,6 +38,8 @@ export function Landing() {
   const scenario = SCENARIOS[selected];
   const create = (id: ScenarioId = "blank") =>
     setEntry({ mode: "create", scenario: id });
+  const createIcebreaker = () =>
+    setEntry({ mode: "create", scenario: "blank", icebreaker: true });
   return (
     <div className="hm-home">
       <nav className="hm-nav" aria-label="Main navigation">
@@ -74,9 +78,30 @@ export function Landing() {
               with your friends. Invite the perspective your group needs.
             </p>
             <div className="hm-hero-actions">
-              <button className="hm-button hm-primary" onClick={() => create()}>
-                Start a conversation <ArrowUpRight size={18} />
-              </button>
+              <div className="hm-primary-actions">
+                <button
+                  className="hm-button hm-primary"
+                  onClick={() => create()}
+                >
+                  Start a conversation <ArrowUpRight size={18} />
+                </button>
+                <p className="hm-action-description">
+                  Start a private room to chat or video call with friends. Add
+                  AI perspectives whenever your group wants them.
+                </p>
+                <button
+                  className="hm-icebreaker-button"
+                  onClick={createIcebreaker}
+                  aria-label="Start an Ice Breaker group conversation"
+                >
+                  <UsersRound size={15} /> Ice Breaker
+                </button>
+                <p className="hm-icebreaker-description">
+                  Invite people into a relaxed group chat. Share your
+                  interests, then get gentle AI prompts to help everyone find
+                  common ground.
+                </p>
+              </div>
               <button className="hm-watch" onClick={() => setFilm(true)}>
                 <span>
                   <Play size={13} fill="currentColor" />

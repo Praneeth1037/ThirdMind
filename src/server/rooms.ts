@@ -9,6 +9,7 @@ import { loadRoom, mutateRoom, redisConfigured, saveNewRoom } from "./store";
 import { getMind } from "@/lib/minds";
 import { getScenario } from "@/lib/scenarios";
 import { naturalSpeechConfigured } from "./speech";
+import { MAX_ICEBREAKER_PARTICIPANTS } from "@/lib/icebreaker";
 
 export class HttpError extends Error {
   constructor(
@@ -65,9 +66,14 @@ export function publicRoom(room: Room): PublicRoom {
           }
         : message,
     ),
-    members: members.map(({ tokenHash: _, ...member }) => {
+    members: members.map(({ tokenHash: _, icebreakerProfile, ...member }) => {
       void _;
-      return member;
+      return {
+        ...member,
+        ...(room.icebreaker
+          ? { icebreakerProfileComplete: Boolean(icebreakerProfile) }
+          : {}),
+      };
     }),
     config: {
       ai: configured
@@ -90,6 +96,7 @@ export async function createRoom(
   name: string,
   scenario: Room["scenario"],
   initialMind?: string,
+  icebreaker = false,
 ) {
   const id = `${
     name
@@ -113,6 +120,7 @@ export async function createRoom(
     queue: [],
     active: null,
     humanSpeaking: {},
+    icebreaker,
     revision: 0,
     rateLimits: {},
   };
@@ -133,7 +141,11 @@ export async function createRoom(
   await saveNewRoom(room);
   return room;
 }
-export async function joinRoom(id: string, name: string): Promise<Session> {
+export async function joinRoom(
+  id: string,
+  name: string,
+  icebreakerProfile?: Member["icebreakerProfile"],
+): Promise<Session> {
   const token = randomBytes(32).toString("base64url");
   const member: Member = {
     id: randomUUID(),
@@ -143,8 +155,19 @@ export async function joinRoom(id: string, name: string): Promise<Session> {
     lastSeen: Date.now(),
   };
   await mutateRoom(id, (room) => {
-    if (room.members.length >= 30)
-      throw new HttpError("This room has reached its 30-person limit.");
+    const capacity = room.icebreaker ? MAX_ICEBREAKER_PARTICIPANTS : 30;
+    if (room.members.length >= capacity)
+      throw new HttpError(
+        `This room has reached its ${capacity}-person limit.`,
+        409,
+      );
+    if (room.icebreaker && !icebreakerProfile)
+      throw new HttpError(
+        "Complete the short Ice Breaker survey before joining this room.",
+      );
+    if (!room.icebreaker && icebreakerProfile)
+      throw new HttpError("This is not an Ice Breaker room.");
+    member.icebreakerProfile = icebreakerProfile;
     room.members.push(member);
   });
   return { roomId: id, memberId: member.id, token, name };

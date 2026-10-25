@@ -23,6 +23,7 @@ The in-memory development store disappears when the process restarts. Never use 
 ## What is implemented
 
 - Create, join and share invite-only rooms, with 24-hour expiry and individual membership tokens.
+- Create invite-only **Ice Breaker** rooms for up to 10 people, with an optional pre-join survey, private survey storage, and shared on-screen topic suggestions. On request, suggestions may use aggregate themes and intentionally posted room-chat messages; raw profiles and call audio are not sent for this feature. Use the room invite link to bring participants together; there is no public stranger-matching queue.
 - Shared human text chat using roughly 1.2-second polling, including during video calls.
 - LiveKit audio/video with camera and microphone controls, remote media, reconnection and leaving the call without losing chat. Devices start off.
 - Twelve Minds, categories, search, add/remove/mute, mention completion, visible turn states and supplied photographic character portraits.
@@ -184,6 +185,8 @@ See [verification results](docs/verification.md) for actual completed checks and
 5. Open a `/room/...` invite directly in another browser, verify shared chat, then test camera and microphone with two devices over HTTPS. Test ordinary conversation stays silent before invoking a Mind.
 
 The UI, token minting, room APIs, text AI and push-to-talk transcription run on Vercel. LiveKit hosts the persistent media room; Redis hosts expiring state. No Python process is required for this MVP. A future continuous transcription or commercial avatar worker must run separately on LiveKit Cloud Agents (the preferred next host), not as an ordinary Vercel function. There is no agent deployment command for a worker that does not yet exist.
+
+Ice Breaker uses the existing room store, invite links, LiveKit call and configured text AI provider. Profiles are private room state and are removed from public room payloads; shared topics are included only when at least two participants listed them, and any participant's matching topic boundary excludes that topic. Prompts are generated on request, shared as room messages and fall back to a fixed starter if the AI provider is unavailable. No automatic silence detection, public matching directory, audio analysis, or voice facilitator is implemented.
 
 No public deployment has been performed from this workspace; a Vercel account/project and production service credentials are still needed.
 

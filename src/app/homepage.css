@@ -125,6 +125,46 @@
   margin-top: 26px;
   flex-wrap: wrap;
 }
+.hm-primary-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+.hm-action-description,
+.hm-icebreaker-description {
+  max-width: 290px;
+  margin: 0 0 5px;
+  color: var(--hm-muted);
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+.hm-icebreaker-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 37px;
+  padding: 8px 15px;
+  color: var(--hm-text);
+  background: var(--hm-panel);
+  border: 1px solid var(--hm-border);
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    transform 0.2s;
+}
+.hm-icebreaker-button:hover {
+  border-color: #82936e;
+  transform: translateY(-1px);
+}
+.hm-icebreaker-button svg {
+  color: #758b5c;
+}
 .hm-watch {
   display: flex;
   align-items: center;
@@ -806,6 +846,16 @@
   .hm-hero-actions {
     gap: 15px;
     margin-top: 22px;
+  }
+  .hm-primary-actions {
+    gap: 8px;
+  }
+  .hm-icebreaker-description {
+    max-width: 290px;
+  }
+  .hm-action-description,
+  .hm-icebreaker-description {
+    font-size: 11px;
   }
   .hm-button {
     font-size: 11px;

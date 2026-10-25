@@ -17,12 +17,14 @@ import {
 } from "@/server/rooms";
 import { mutateRoom, rateLimit } from "@/server/store";
 import { runNextTurn } from "@/server/engine";
+import { icebreakerProfileSchema } from "@/lib/icebreaker";
 export const maxDuration = 60;
 type Context = { params: Promise<{ id: string }> };
 const schema = z.discriminatedUnion("action", [
   z.object({
     action: z.literal("join"),
     name: z.string().trim().min(1).max(32),
+    icebreakerProfile: icebreakerProfileSchema.optional(),
   }),
   z.object({
     action: z.literal("message"),
@@ -56,7 +58,7 @@ export async function POST(request: Request, context: Context) {
     const input = schema.parse(await readJson(request));
     if (input.action === "join") {
       await rateLimit(`join:${id}`, 40);
-      const session = await joinRoom(id, input.name);
+      const session = await joinRoom(id, input.name, input.icebreakerProfile);
       return json({ session });
     }
     const { member } = await authenticatedRoom(id, request);

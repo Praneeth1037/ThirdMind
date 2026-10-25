@@ -11,6 +11,12 @@ export type Message = {
   source?: "text" | "voice";
   demo?: boolean;
 };
+export type IcebreakerProfile = {
+  interests: string[];
+  topicsToAvoid: string[];
+  style: "casual" | "funny" | "curious" | "thoughtful";
+  participation: "answer" | "ask" | "stories" | "mix";
+};
 export type Member = {
   id: string;
   name: string;
@@ -18,6 +24,7 @@ export type Member = {
   joinedAt: number;
   lastSeen: number;
   inCall?: boolean;
+  icebreakerProfile?: IcebreakerProfile;
 };
 export type Job = {
   id: string;
@@ -49,11 +56,14 @@ export type Room = {
   queue: Job[];
   active: ActiveTurn | null;
   humanSpeaking: Record<string, number>;
+  icebreaker?: boolean;
   revision: number;
   rateLimits: Record<string, { since: number; count: number }>;
 };
 export type PublicRoom = Omit<Room, "members" | "rateLimits"> & {
-  members: Omit<Member, "tokenHash">[];
+  members: (Omit<Member, "tokenHash" | "icebreakerProfile"> & {
+    icebreakerProfileComplete?: boolean;
+  })[];
   config: {
     ai: string;
     livekit: boolean;
